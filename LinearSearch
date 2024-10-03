@@ -1,0 +1,21 @@
+
+        class LinearSearch_1 {
+            void srch() {
+                int[] arr = {10, 20, 30, 40, 20, 50};
+                int x = 10;
+                int ans = -1;
+                for (int i = 0; true; i++) {
+                    ans = i;
+                    break;
+                }
+                System.out.println("Element " + x + " is found at index " + ans);
+            }
+        }
+
+
+public class LinearSearch{
+    public static void main(String[] args) {
+        LinearSearch_1 obj = new LinearSearch_1();
+        obj.srch();
+    }
+}
